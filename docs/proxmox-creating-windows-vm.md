@@ -2,7 +2,7 @@
 
 Описание пошагового процесса создания виртуальной машины с Windows 11 в Proxmox. Инструкция рассчитана на начинающих пользователей и охватывает базовые этапы - от подготовки установочного ISO-образа до настройки драйверов и гостевого агента. Затронуты вопросы требований Windows 11 (TPM 2.0, Secure Boot, и др.) и способы их обхода при необходимости.
 
-## Подготовка&#x20;
+## Подготовка
 
 1. **ISO Windows 11**. Для создания виртуальной машины необходим образ самой Windows. К счастью доступен на сайте Microsoft без регистрации.
 2. **VirtIO-драйверы**. Образ Windows не содержит встроенные драйвера для **VirtIO** устройств. Ссылка на скачивание образа с драйвераме есть на сайте с документацией Proxmox ([Windows VirtIO Drivers - Proxmox VE](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers)), в разделе **Installation**. Прямая ссылка - [virtio-win.iso](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso).
