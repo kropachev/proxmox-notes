@@ -97,7 +97,7 @@ Proxmox VE поставляется с включенным репозитори
 
 Если в сервер установлены дополнительные неразмеченные диски, они будут видны в **Node - Disks**. 
 
-![Node - Disks](images/proxmox-ve9-setup-node-disks.png)
+![Node - Disks](images/proxmox-setup-node-disks.png)
 
 1. Выберите нужный диск (например, `/dev/nvme1n1`) и нажмите **Initialize Disk with GPT** (инициализировать таблицу разделов). Это подготовит диск к использованию (все данные на нем будут уничтожены).
 
